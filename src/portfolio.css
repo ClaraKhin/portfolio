@@ -1,0 +1,16 @@
+:root {
+  --color-gradient: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+  --color-1: #ffcece;
+  --color-2: #ffc1c8;
+}
+
+body {
+    background: var(--color-gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
