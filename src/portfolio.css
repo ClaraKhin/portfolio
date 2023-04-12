@@ -6,11 +6,24 @@
   );
   --color-1: #ffcece;
   --color-2: #ffc1c8;
+  --color-3: #6c63ff;
 }
 
 body {
-    background: var(--color-gradient);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+  background: var(--color-gradient);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 30px;
+  gap: 10px;
+}
+.btn-primary {
+  width: 200px;
+  height: 63px;
 }
