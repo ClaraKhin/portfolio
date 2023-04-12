@@ -4,15 +4,29 @@
     rgb(253, 240, 233) 2.2%,
     rgb(255, 194, 203) 96.2%
   );
-  --color-1: #ffcece;
-  --color-2: #ffc1c8;
+  --color-1: #fdbbbb;
+  --color-2: #fbb0b9;
   --color-3: #6c63ff;
+  --color-4: #f8e5e5;
 }
 
 body {
   background: var(--color-gradient);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.hero {
+  text-align: center;
+  background: var(--color-4);
+}
+
+.photo-khin {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 180px;
+  height: 200px;
+  mix-blend-mode: multiply;
 }
 
 .button {
@@ -23,7 +37,7 @@ body {
   padding: 18px 30px;
   gap: 10px;
 }
-.btn-primary {
+.btn-branding {
   width: 200px;
   height: 63px;
 }
