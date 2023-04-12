@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&display=swap");
+
 :root {
   --color-gradient: linear-gradient(
     179.4deg,
@@ -8,6 +10,8 @@
   --color-2: #fbb0b9;
   --color-3: #6c63ff;
   --color-4: #f8e5e5;
+  --heading-font-family: "Abril Fatface", cursive;
+  --default-font-family: "Righteous", cursive;
 }
 
 body {
@@ -15,10 +19,25 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.greet {
+  font-family: var(--heading-font-family);
+  font-weight: 400px;
+  font-size: 30px;
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: 400px;
+}
+h4 {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+}
 
 .hero {
   text-align: center;
   background: var(--color-4);
+  padding-bottom: 10px;
 }
 
 .photo-khin {
@@ -27,6 +46,7 @@ body {
   width: 180px;
   height: 200px;
   mix-blend-mode: multiply;
+  margin-top: 35px;
 }
 
 .button {
@@ -36,8 +56,31 @@ body {
   align-items: center;
   padding: 18px 30px;
   gap: 10px;
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
 }
 .btn-branding {
   width: 200px;
   height: 63px;
+  box-shadow: 5px 10px 10px var(--color-2);
+}
+.img-fluid {
+  width: 500px;
+  height: 500px;
+}
+.project-title {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: 400;
+}
+p {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+}
+
+.btn-outline {
+  width: 200px;
+  height: 60px;
+  box-shadow: 5px 2px 25px var(--color-1) inset;
 }
