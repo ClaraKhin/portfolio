@@ -8,8 +8,8 @@
   );
   --color-1: #fdbbbb;
   --color-2: #fbb0b9;
-  --color-3: #6c63ff;
-  --color-4: #f8e5e5;
+  --color-3: #f8e5e5;
+  --color-4: #f76b8a;
   --heading-font-family: "Abril Fatface", cursive;
   --default-font-family: "Righteous", cursive;
 }
@@ -33,10 +33,15 @@ h4 {
   font-family: var(--default-font-family);
   font-size: 36px;
 }
+h5 {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  opacity: 0.7;
+}
 
 .hero {
   text-align: center;
-  background: var(--color-4);
+  background: var(--color-3);
   padding-bottom: 10px;
 }
 
@@ -96,5 +101,12 @@ p {
   justify-content: center;
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: var(--color-4);
+  font-size: 20px;
+  font-family: var(--default-font-family);
 }
+.contact {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+}
+
