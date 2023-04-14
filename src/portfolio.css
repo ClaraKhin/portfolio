@@ -24,7 +24,9 @@ body {
   font-weight: 400px;
   font-size: 30px;
 }
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--heading-font-family);
   font-size: 48px;
   font-weight: 400px;
@@ -33,9 +35,9 @@ h4 {
   font-family: var(--default-font-family);
   font-size: 36px;
 }
-h5 {
+.contact-content {
   font-family: var(--default-font-family);
-  font-size: 36px;
+  font-size: 20px;
   opacity: 0.7;
 }
 
@@ -110,3 +112,13 @@ p {
   font-family: var(--heading-font-family);
 }
 
+.work {
+  opacity: 0.7;
+  font-size: 20px;
+  font-family: var(--default-font-family);
+}
+
+video {
+  mix-blend-mode: multiply;
+  display: inline-block;
+}
