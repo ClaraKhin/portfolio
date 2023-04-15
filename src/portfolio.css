@@ -71,9 +71,10 @@ h4 {
   height: 63px;
   box-shadow: 5px 10px 10px var(--color-2);
 }
-.img-fluid {
+.experiment-image {
   width: 500px;
   height: 500px;
+  box-shadow: 10px 15px 13px var(--color-2);
 }
 .project-title {
   font-family: var(--heading-font-family);
@@ -94,9 +95,6 @@ p {
   opacity: 0.7;
 }
 
-.project-img {
-  box-shadow: 10px 15px 13px var(--color-2);
-}
 .email-link {
   display: flex;
   justify-content: center;
@@ -120,4 +118,14 @@ p {
 video {
   mix-blend-mode: multiply;
   display: inline-block;
+}
+.skill-icon {
+  width: 100px;
+  height: 100px;
+}
+.skills {
+  text-align: center;
+  background: var(--color-3);
+  box-sizing: border-box;
+  box-shadow: 10px 15px 13px var(--color-2);
 }
