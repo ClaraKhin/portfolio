@@ -129,7 +129,7 @@ video {
   box-sizing: border-box;
   box-shadow: 10px 15px 13px var(--color-2);
 }
-.carousel-inner  .certificate {
+.carousel-inner .certificate {
   width: 50%;
   position: relative;
   left: 25%;
