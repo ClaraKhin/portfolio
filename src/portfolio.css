@@ -1,23 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&display=swap");
 
 :root {
-  --color-gradient: linear-gradient(
-    179.4deg,
-    rgb(253, 240, 233) 2.2%,
-    rgb(255, 194, 203) 96.2%
-  );
-  --color-1: #fdbbbb;
-  --color-2: #fbb0b9;
-  --color-3: #f8e5e5;
-  --color-4: #f76b8a;
+  --color-1: #b8870b5f;
+  --color-2: #cc993349;
+  --color-3: #eeeeee52;
+  --color-4: #996515;
   --heading-font-family: "Abril Fatface", cursive;
   --default-font-family: "Righteous", cursive;
 }
 
-body {
-  background: var(--color-gradient);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.container {
+  max-width: 100%;
+}
+.container .background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -2;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+nav .container-fluid img {
+  width: 70px;
 }
 .greet {
   font-family: var(--heading-font-family);
@@ -47,12 +53,10 @@ h4 {
 }
 
 .photo-khin {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 180px;
+  border-radius: 30%;
+  width: 150px;
   height: 200px;
-  mix-blend-mode: multiply;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .button {
@@ -69,12 +73,12 @@ h4 {
 .btn-branding {
   width: 200px;
   height: 63px;
-  box-shadow: 5px 10px 10px var(--color-2);
+  box-shadow: 5px 10px 10px var(--color-1);
 }
 .experiment-image {
   width: 500px;
   height: 500px;
-  box-shadow: 10px 15px 13px var(--color-2);
+  box-shadow: 10px 15px 13px var(--color-1);
 }
 .project-title {
   font-family: var(--heading-font-family);
@@ -90,6 +94,9 @@ p {
   width: 200px;
   height: 60px;
   box-shadow: 5px 2px 25px var(--color-1) inset;
+}
+.btn-outline:active {
+  transform: translateY(4px);
 }
 .about-paragraph {
   opacity: 0.7;
@@ -115,10 +122,6 @@ p {
   font-family: var(--default-font-family);
 }
 
-video {
-  mix-blend-mode: multiply;
-  display: inline-block;
-}
 .skill-icon {
   width: 100px;
   height: 100px;

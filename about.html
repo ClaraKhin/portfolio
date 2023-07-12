@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/portfolio.css" />
+    <link rel="icon" href="images/khin.svg" />
     <title>Portfolio - Khin Thiri Kyaw</title>
     <meta
       name="description"
@@ -27,342 +28,357 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #fcdbdb">
-      <div class="container-fluid">
-        <a class="navbar-brand ps-3" href="index.html"
-          ><i class="fa-brands fa-kickstarter fa-2xl" style="color: #fe929e"></i
-        ></a>
+    <div class="container">
+      <div class="background">
+        <video src="video/Background.mp4" muted autoplay loop></video>
+      </div>
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: transparent"
+      >
+        <div class="container-fluid">
+          <img src="images/Khin.png" alt="Khin-Logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="index.html" title="Homepage">Home</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="about.html"
+                  title="About Khin"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item pe-4">
+                <a
+                  class="nav-link"
+                  href="experiment.html"
+                  title="Khin's experiments"
+                  >Experiments</a
+                >
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="work.html" title="Khin's works"
+                  >Works</a
+                >
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="contact.html" title="Contact Khin"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1 class="text-center mt-3">
+        <span
+          ><i class="fa-solid fa-id-badge fa-lg" style="color: #996515"></i
+        ></span>
+        About Me
+      </h1>
+      <h4 class="text-center">Front-end Developer from Yangon, Myanmar</h4>
+      <p class="text-center about-paragraph mt-5 pb-3">
+        Welcome to my portfolio page! My name is Khin Thiri Kyaw, an aspiring
+        web developer seeking to gain precious experience and eager to expend my
+        skills through an opportunity. <br />I'm passionate about creating
+        dynamic and interactive web applications that meet the needs of users
+        and deliver an awesome user experience. <br />I have experiences with
+        HTML, CSS, and JavaScript, have worked with React which is a popular
+        framework.<br />
+        Additionally, I am familiar with back-end technologies like Node.js and
+        PHP and I have experience with database systems like MySQL and
+        MongoDB.<br />
+        I I am also a strong communicator who appreciate feedback and willing to
+        adapt to the needs of my team. <br />As a junior, I am excited to learn
+        from experienced professionals and to gain hands-on experience working
+        on real world projects. <br />I am eager to contribute my skills and
+        enthusiasm to your organization and to work towards achieving your
+        goals.
+      </p>
+
+      <h5 class="text-center">
+        Tech-concerned Certificates <i class="fa-solid fa-stamp"></i>
+      </h5>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="images/Tech-concerned-certificate1.PNG"
+              class="d-block certificate"
+              alt="FreeCodeCamp"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="images/Tech-concerned certificate2.PNG"
+              class="d-block certificate"
+              alt="Codecademy"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Tech-concerned-certificate3.PNG"
+              class="d-block certificate"
+              alt="SheCodes-Workshop"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Tech-concerned-certificate4.PNG"
+              class="d-block certificate"
+              alt="Fairway-technology-certificate"
+            />
+          </div>
+        </div>
         <button
-          class="navbar-toggler"
+          class="carousel-control-prev"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="index.html" title="Homepage">Home</a>
-            </li>
-            <li class="nav-item pe-4">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="about.html"
-                title="About Khin"
-                >About</a
-              >
-            </li>
-            <li class="nav-item pe-4">
-              <a
-                class="nav-link"
-                href="experiment.html"
-                title="Khin's experiments"
-                >Experiments</a
-              >
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="work.html" title="Khin's works"
-                >Works</a
-              >
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="contact.html" title="Contact Khin"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </nav>
-    <h1 class="text-center mt-3">
-      <span
-        ><i class="fa-solid fa-id-badge fa-lg" style="color: #ff7575"></i
-      ></span>
-      About Me
-    </h1>
-    <h4 class="text-center">Front-end Developer from Yangon, Myanmar</h4>
-    <p class="text-center about-paragraph mt-5 pb-3">
-      Welcome to my portfolio page! My name is Khin Thiri Kyaw, an aspiring web
-      developer seeking to gain precious experience and eager to expend my
-      skills through an opportunity. <br />I'm passionate about creating dynamic
-      and interactive web applications that meet the needs of users and deliver
-      an awesome user experience. <br />I have experiences with HTML, CSS, and
-      JavaScript, have worked with React which is a popular framework.<br />
-      Additionally, I am familiar with back-end technologies like Node.js and
-      PHP and I have experience with database systems like MySQL and MongoDB.<br />
-      I I am also a strong communicator who appreciate feedback and willing to
-      adapt to the needs of my team. <br />As a junior, I am excited to learn
-      from experienced professionals and to gain hands-on experience working on
-      real world projects. <br />I am eager to contribute my skills and
-      enthusiasm to your organization and to work towards achieving your goals.
-    </p>
 
-    <h5 class="text-center">
-      Tech-concerned Certificates <i class="fa-solid fa-stamp"></i>
-    </h5>
-
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="3"
-          aria-label="Slide 4"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img
-            src="images/Tech-concerned-certificate1.PNG"
-            class="d-block certificate"
-            alt="FreeCodeCamp"
-          />
+      <div class="container skills mt-5">
+        <h3 class="text-center pt-4">Skills I have</h3>
+        <div class="row mt-4">
+          <div class="col-4">
+            <img
+              src="images/html.png"
+              alt="html-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>HTML</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/css.png"
+              alt="css-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>CSS</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/bootstrap.png"
+              alt="bootstrap-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>Bootstrap</p>
+          </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img
-            src="images/Tech-concerned certificate2.PNG"
-            class="d-block certificate"
-            alt="Codecademy"
-          />
+        <div class="row mt-3">
+          <div class="col-4">
+            <img
+              src="images/flexbox.png"
+              alt="flexbox-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>Flexbox</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/javascript.png"
+              alt="javascript-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>JavaScript</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/react-icon.png"
+              alt="react-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>React Js</p>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="images/Tech-concerned-certificate3.PNG"
-            class="d-block certificate"
-            alt="SheCodes-Workshop"
-          />
+        <div class="row mt-3">
+          <div class="col-4">
+            <img
+              src="images/api-icon.png"
+              alt="api-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>API</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/responsive-icon.png"
+              alt="responsive-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>Responsive</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/seo-icon.png"
+              alt="seo-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>SEO</p>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="images/Tech-concerned-certificate4.PNG"
-            class="d-block certificate"
-            alt="Fairway-technology-certificate"
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <div class="container skills mt-5">
-      <h3 class="text-center pt-4">Skills I have</h3>
-      <div class="row mt-4">
-        <div class="col-4">
-          <img
-            src="images/html.png"
-            alt="html-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>HTML</p>
-        </div>
-        <div class="col-4">
-          <img
-            src="images/css.png"
-            alt="css-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>CSS</p>
-        </div>
-        <div class="col-4">
-          <img
-            src="images/bootstrap.png"
-            alt="bootstrap-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>Bootstrap</p>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-4">
-          <img
-            src="images/flexbox.png"
-            alt="flexbox-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>Flexbox</p>
-        </div>
-        <div class="col-4">
-          <img
-            src="images/javascript.png"
-            alt="javascript-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>JavaScript</p>
-        </div>
-        <div class="col-4">
-          <img
-            src="images/react-icon.png"
-            alt="react-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>React Js</p>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-4">
-          <img
-            src="images/api-icon.png"
-            alt="api-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>API</p>
-        </div>
-        <div class="col-4">
-          <img
-            src="images/responsive-icon.png"
-            alt="responsive-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>Responsive</p>
-        </div>
-        <div class="col-4">
-          <img
-            src="images/seo-icon.png"
-            alt="seo-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>SEO</p>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-4">
-          <img
-            src="images/nodeJs.png"
-            alt="nodeJs-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <span
-            >Future<i
-              class="fa-solid fa-angles-right fa-beat-fade"
-              style="color: #f874fb"
-            ></i
-          ></span>
-          <br />
-          <p>Node Js</p>
-        </div>
-        <div class="col-4">
-          <img
-            src="images/mongoDB.png"
-            alt="mongoDB-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <span
-            >Future<i
-              class="fa-solid fa-angles-right fa-beat-fade"
-              style="color: #f874fb"
-            ></i
-          ></span>
-          <br />
-          <p>MongoDB</p>
-        </div>
-        <div class="col-4 mb-3">
-          <img
-            src="images/github-icon.png"
-            alt="github-icon-image"
-            class="img-fluid skill-icon"
-          />
-          <br />
-          <p>Github</p>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <div class="grid m-1 pt-3">
-        <div class="g-col-6 text-center">
-          <p class="text-muted">
-            This project is coded by Khin and is
-            <a
-              href="https://github.com/ClaraKhin/portfolio"
-              target="_blank"
-              class="text-decoration-none"
-              >open-sourced</a
-            >.
-          </p>
-        </div>
-        <div class="g-col-6 d-flex justify-content-center social-links">
-          <p class="twitter pe-5">
-            <a
-              href="https://twitter.com/ClaraThiri"
-              target="_blank"
-              title="Twitter profile"
-              ><i class="fa-brands fa-twitter fa-2xl" style="color: #ff7070"></i
-            ></a>
-          </p>
-          <p class="github pe-5">
-            <a
-              href="https://github.com/ClaraKhin"
-              target="_blank"
-              title="Github profile"
-              ><i class="fa-brands fa-github fa-2xl" style="color: #ff7070"></i
-            ></a>
-          </p>
-          <p class="linkedin">
-            <a
-              href="https://www.linkedin.com/in/khin-thiri-kyaw/"
-              target="_blank"
-              title="Linkedin profile"
-              ><i
-                class="fa-brands fa-linkedin fa-2xl"
-                style="color: #ff7070"
+        <div class="row mt-3">
+          <div class="col-4">
+            <img
+              src="images/nodeJs.png"
+              alt="nodeJs-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <span
+              >Future<i
+                class="fa-solid fa-angles-right fa-beat-fade"
+                style="color: #f874fb"
               ></i
-            ></a>
-          </p>
+            ></span>
+            <br />
+            <p>Node Js</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/mongoDB.png"
+              alt="mongoDB-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <span
+              >Future<i
+                class="fa-solid fa-angles-right fa-beat-fade"
+                style="color: #f874fb"
+              ></i
+            ></span>
+            <br />
+            <p>MongoDB</p>
+          </div>
+          <div class="col-4 mb-3">
+            <img
+              src="images/github-icon.png"
+              alt="github-icon-image"
+              class="img-fluid skill-icon"
+            />
+            <br />
+            <p>Github</p>
+          </div>
         </div>
       </div>
-    </footer>
+
+      <footer>
+        <div class="grid m-1 pt-3">
+          <div class="g-col-6 text-center">
+            <p class="text-muted">
+              This project is coded by Khin and is
+              <a
+                href="https://github.com/ClaraKhin/portfolio"
+                target="_blank"
+                class="text-decoration-none"
+                >open-sourced</a
+              >.
+            </p>
+          </div>
+          <div class="g-col-6 d-flex justify-content-center social-links">
+            <p class="twitter pe-5">
+              <a
+                href="https://twitter.com/ClaraThiri"
+                target="_blank"
+                title="Twitter profile"
+                ><i
+                  class="fa-brands fa-twitter fa-2xl"
+                  style="color: #795011"
+                ></i
+              ></a>
+            </p>
+            <p class="github pe-5">
+              <a
+                href="https://github.com/ClaraKhin"
+                target="_blank"
+                title="Github profile"
+                ><i
+                  class="fa-brands fa-github fa-2xl"
+                  style="color: #795011"
+                ></i
+              ></a>
+            </p>
+            <p class="linkedin">
+              <a
+                href="https://www.linkedin.com/in/khin-thiri-kyaw/"
+                target="_blank"
+                title="Linkedin profile"
+                ><i
+                  class="fa-brands fa-linkedin fa-2xl"
+                  style="color: #795011"
+                ></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
